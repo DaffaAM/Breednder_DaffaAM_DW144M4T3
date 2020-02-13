@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Modak|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Monda&display=swap');
+.button{
+position:absolute;
+left:1350px;
+justify-content: right;
+top: 30px;
+width: 100px;
+height: 50px;
+background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.button2{
+    position: absolute;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    left: 750px;
+    top: 650px;
+    font-size: 20;
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h2 {
+    display:inline;
+    position: absolute;
+    width: 200px;
+    height: 64px;
+    left:600px;
+    top: 250px;
+    float: right;
+    white-space: nowrap;
+    
+    font-family: Opticon;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    color: azure;
+
+}
+
+h1{
+    position: absolute;
+    width: 200px;
+    height: 64px;
+    left: 70px;
+    top: 20px;
+    
+    font-family: 'Odibee Sans', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: px;
+    color: aliceblue;
+}
+
+h2 {
+    display:inline;
+    position: absolute;
+    width: 200px;
+    height: 64px;
+    left:600px;
+    top: 330px;
+    float: right;
+    white-space: nowrap;
+    
+    opacity: 1.5;
+    font-family: 'Odibee Sans', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    color: azure;
+}
+
+h3{
+    
+    display:inline;
+    position: absolute;
+    width: 200px;
+    height: 64px;
+    left: 470px;
+    top: 430px;
+    float: right;
+    white-space: nowrap;
+    
+    font-family: 'Odibee Sans', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    color: azure;
+}
+
+p{
+    position: absolute;
+    width: 200px;
+    height: 64px;
+    left: 620px;
+    top: 580px;
+    float: right;
+    white-space: nowrap;
+    
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: azure;
+}
+
+#p2{
+
+    position: absolute;
+    width: 200px;
+    height: 64px;
+    left: 500px;
+    top: 550px;
+    float: right;
+    white-space: nowrap;
+    
+    font-family: 'Roboto', sans-serif;
+    font-style: normal; 
+    font-weight: normal;
+    font-size: 18px;
+    color:azure;
+}
+
+#footer {
+    text-align: center;
+    color:azure;
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 40px;
+    top:100px;
+}
+
+
+
+.bg{
+
+width: 1524px;
+height: 100%;
+left: 0px;
+top: 0px;
+right: 100px;
+
+}
+
+
+.email{
+    position: relative;
+width: 300px;
+height: 40px;
+left: 100px;
+top: 10px;
+
+background: #E7E7E7;
+border-radius: 10px;
+}
+
+.passform{
+    position: relative;
+    left: 100px;
+    width: 300px;
+    height: 40px;
+    
+
+background: #E7E7E7;
+border-radius: 10px;
+}
+
+.buttonlogin{
+    position: absolute;
+    left: 210px;
+    margin-right: auto;
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.title-login{
+    font-family: 'Monda', sans-serif;
+    font-size: 50px;
+    top: 50px;
+    
+    text-align: center;
+
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+div.title-login.modal-title.h4 {
+    margin-top: 0px;
+}
+
+.formregist{
+    position: relative;
+    left: 100px;
+    width: 300px;
+    height: 40px;
+    
+
+background: #E7E7E7;
+border-radius: 10px;
+}
+
