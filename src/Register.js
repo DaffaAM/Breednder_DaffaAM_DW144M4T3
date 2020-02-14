@@ -23,7 +23,7 @@ class Register extends Component {
             className="button2" size="lg" variant="primary" onClick={() => this.handleModal(show)}>Register</Button>
    <Modal className="modalsize" show={show} onHide={() => this.handleModal(show)}>
             <div>
-            <Modal.Header closeButton className="title-login">
+            <Modal.Header className="title-login">
 
               <Modal.Title > Register</Modal.Title>
               </Modal.Header>
