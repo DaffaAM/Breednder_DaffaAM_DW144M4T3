@@ -3,30 +3,28 @@ import { Form, Button, Card, Image } from "react-bootstrap";
 import profile from "./img/profile.jpg";
 import Premium from "./Premium";
 import "./Dashboard.css";
-import icon1 from "./img/icon1.png";
-import icon2 from "./img/icon2.png";
-import icon3 from "./img/icon3.png";
-import icon4 from "./img/icon4.png";
 
 console.log(profile);
-console.log(icon1);
-console.log(icon2);
-console.log(icon3);
-console.log(icon4);
 
-class Profile extends Component {
+class Profile2 extends Component {
   render() {
     return (
       <div>
         <div className="divkiri">
           <nav className="navkiri">
+            <Image
+              src={require("./img/arrowleft.png")}
+              alt="kiri"
+              id="ukuranpanah"
+            />
             <img
               className="profilebulat"
               src={profile}
               style={{}}
               alt="profile"
             />
-            ;<p className="profileedit">Profile Pet</p>
+
+            <p className="profileedit2">Edit Profile Pet</p>
           </nav>
           <div>
             <h4 className="settingakun">Account Setting</h4>
@@ -87,51 +85,15 @@ class Profile extends Component {
         <div className="divkanan">
           <Premium />
           <div id="divcard">
-            <Card style={{ width: "25rem" }} id="idcard">
-              <Card.Img variant="top" src={profile} id="" />
-
-              <Card.Body>
-                <Card.Subtitle className="geser">Cat</Card.Subtitle>
-                <Card.Title className="tebeltitle">Rocky</Card.Title>
-                <div>
-                  <Image src={icon1} id="ukuranicon" />
-                  <span className="inispan">Breednder : Udin</span>
-                </div>
-                <div>
-                  <Image src={icon2} id="ukuranicon" />
-                  <span className="inispan">10 Kilometer dari sini</span>
-                </div>
-                <div>
-                  <Image src={icon3} id="ukuranicon" />
-                  <span className="inispan">Male - Adult</span>
-                </div>
-                <div>
-                  <Image src={icon4} id="ukuranicon" />
-                  <span className="inispan">Phone Breednder : 0899220227</span>
-                </div>
-                <Card.Title className="jarak">About</Card.Title>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </p>
-              </Card.Body>
-            </Card>
+            <Card style={{ width: "25rem" }} id="idcard"></Card>
           </div>
         </div>
-        <div className="edit">
-          <Button className="btnedit" type="submit" href="/EditProfile">
-            Edit{" "}
-          </Button>
-        </div>
+        <Button className="btnedit1" type="submit" href="/Profile">
+          Save
+        </Button>
       </div>
     );
   }
 }
 
-export default Profile;
+export default Profile2;

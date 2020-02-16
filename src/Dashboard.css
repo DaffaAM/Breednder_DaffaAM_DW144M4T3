@@ -1,182 +1,362 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Sriracha&display=swap");
 
-
-.divkiri{
-    float: left;
-    width: 25%;
-    height:100px;
+.divkiri {
+  float: left;
+  width: 25%;
+  height: 100px;
 }
 
-.divkanan{
-    float: right;
-    background-color: pink;
-    height: 750px;
-    width: 75%;
-    background-image: url("./img/gradient.jpg");
-    background-repeat: no-repeat;
+.divkanan {
+  float: right;
+  background-color: pink;
+  height: 750px;
+  width: 75%;
+  background-image: url("./img/bgtest.jpg");
+  position: relative;
 }
 
-img.profilebulat{
-
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    align-items: left;
-    margin-top: 10px;
-    margin-left:10px;
-    margin-bottom: 10px;
-    margin-right: -10px;
-    border:10px;
-    
+.edit {
+  position: absolute;
+  top: 0;
+  bottom: 0;
 }
 
-.navkiri{
-
-    widows: 380px; ;
-    height: 110px;
-    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+img.profilebulat {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  align-items: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: -10px;
+  border: 10px;
 }
 
-p.profile{
-float: right;
-text-align: center;
-    margin-top: 30px;
-    margin-left: 0px;
-    font-size: 40px;
-    margin-right: 110px;
-    color:azure;
-    font-family: 'Fira Sans', sans-serif;
-
-
+.navkiri {
+  widows: 380px;
+  height: 110px;
+  background: -webkit-linear-gradient(
+    to right,
+    #2ebf91,
+    #8360c3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2ebf91,
+    #8360c3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-img.matchphoto.rounded{
-margin-top: 30px;
-    height: 110px;
-margin-right:-10px;
+p.profile {
+  float: right;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 0px;
+  font-size: 40px;
+  margin-right: 110px;
+  color: azure;
+  font-family: "Fira Sans", sans-serif;
 }
 
-.rowkiri{
-
-    margin-left: 7px;
+p.wowini {
+  font-size: 27px;
 }
 
-.invisiblebtn{
-
-    font-size: 10px;
+img.matchphoto.rounded {
+  margin-top: 30px;
+  height: 110px;
+  margin-right: -10px;
 }
 
-.profileedit{
-    float: right;
-text-align: center;
-    margin-top: 40px;
-    margin-left: 0px;
-    font-size: 20px;
-    margin-right: 140px;
-    color:azure;
-    font-family: 'Fira Sans', sans-serif;
-
-
+.rowkiri {
+  margin-left: 7px;
 }
 
-.textsetting{
-    font-weight: bold;
-    text-align: center;
-    justify-content: center;
-    margin-left: 130px;
-    
-    font-family: 'Fira Sans', sans-serif;
-    margin-top: 40px;
-    background-color: #08AEEA;
-    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
-      -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
+.invisiblebtn {
+  font-size: 18px;
 }
 
-.nomor{  
-    position: relative;
-    left: 35px;
-    width: 300px;
-    height: 40px;
-    margin-top: 25px;
-    font-family: 'Fira Sans', sans-serif;
-
-background:white;
-border-radius: 10px;
+.profileedit {
+  float: right;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 0px;
+  font-size: 25px;
+  margin-right: 160px;
+  color: azure;
+  font-family: "Fira Sans", sans-serif;
 }
 
-.email1{
-
-    position: relative;
-    left: 35px;
-    width: 300px;
-    height: 40px;
-
-
-background: white;
-border-radius: 10px;
+#premium3 {
+  font-weight: bold;
+  color: azure;
+  margin-left: 150px;
 }
 
+.textsetting {
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  margin-left: 130px;
 
-.textsetting1{
-
-    font-weight: bold;
-    text-align: center;
-    justify-content: center;
-    margin-left: 120px;
-    top:20px;
-    font-family: 'Fira Sans', sans-serif;
-    margin-top: 10px;
-    background-color: #08AEEA;
-    background-color: #74EBD5;
-    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
-          -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
+  font-family: "Fira Sans", sans-serif;
+  margin-top: 40px;
+  background-color: black;
 }
 
-.form-control-range{
+.nomor {
+  position: relative;
+  left: 35px;
+  width: 300px;
+  height: 40px;
+  margin-top: 25px;
+  font-family: "Fira Sans", sans-serif;
 
-    width: 200px;
-    justify-content: center;
-    margin-left: 80px;
+  background: white;
+  border-radius: 10px;
 }
 
-.tebelaja{
-    font-family: 'Fira Sans', sans-serif;
-    margin-top: 0px;
-    font-weight: bold;
+.email1 {
+  position: relative;
+  left: 35px;
+  width: 300px;
+  height: 40px;
 
-    margin-left: 15px;
+  background: white;
+  border-radius: 10px;
 }
 
-.formpet{
-
-    position: relative;
-    left: 35px;
-    width: 300px;
-    height: 40px;
-
-
-background: white;
-border-radius: 10px;
-
+.textsetting1 {
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  font-family: "Fira Sans", sans-serif;
+  color: black;
+  margin-left: 120px;
+  top: 20px;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
-.buttonedit{
+.form-control-range {
+  width: 200px;
+  justify-content: center;
+  margin-left: 80px;
+}
 
-    position: absolute;
-    left: 160px;
-    margin-right: auto;
-    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.tebelaja {
+  font-family: "Fira Sans", sans-serif;
+  margin-top: 0px;
+  font-weight: bold;
 
+  margin-left: 15px;
+}
+
+.formpet {
+  position: relative;
+  left: 35px;
+  width: 300px;
+  height: 40px;
+
+  background: white;
+  border-radius: 10px;
+}
+
+.buttonedit {
+  position: absolute;
+  left: 160px;
+  margin-right: auto;
+  background: #ed213a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #93291e,
+    #ed213a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #93291e,
+    #ed213a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #margin1 {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
 
-    margin-top: 50px;
+.asuu {
+  margin-top: 10px;
+  background-color: #ededed;
+
+  font-family: "Fira Sans", sans-serif;
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+  background: #ededed;
+  height: 40px;
+  top: 3px;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+#divcard {
+  width: 780px;
+  height: 600px;
+  overflow: hidden;
+}
+
+#idcard {
+  justify-content: center;
+  margin-left: 400px;
+  margin-top: 30px;
+  height: 600px;
+  overflow: auto;
+  width: ;
+}
+
+.geser {
+  margin-bottom: 1000px;
+  float: right;
+  justify-content: right;
+  font-size: 30px;
+}
+
+.kananin {
+  float: right;
+  margin-right: 40px;
+}
+#imgcard {
+  width: 65%;
+  height: 50%;
+}
+#addpet {
+  margin-top: 20px;
+  margin-left: 1000px;
+  background: -webkit-linear-gradient(
+    to right,
+    #2ebf91,
+    #8360c3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2ebf91,
+    #8360c3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.tebeltitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+#ukuranicon {
+  width: 20px;
+  height: px;
+}
+
+.profileedit2 {
+  float: right;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 0px;
+  font-size: 25px;
+  margin-right: 90px;
+  color: azure;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.inispan {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.jarak {
+  margin-top: 10px;
+}
+.kananaja {
+  margin-left: 20px;
+  margin-right: 100px;
+  left: 700px;
+}
+
+.warnabtn {
+  margin-top: 25px;
+  margin-left: 520px;
+  background: linear-gradient(to right, #2ebf91, #8360c3);
+  background: -webkit-linear-gradient(
+    to right,
+    #2ebf91,
+    #8360c3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+}
+
+#ukuranpanah {
+  width: 15px;
+  height: 25px;
+  margin-left: 5px;
+}
+.gambartinder {
+  margin-top: 110px;
+  margin-left: 420px;
+}
+
+.btnedit1 {
+  position: absolute;
+  /* margin-left: 160px;
+  margin-top: 240px; */
+  right: 530px;
+  bottom: 120px;
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: 1px 1px 5px darkslategray;
+}
+
+.btnedit {
+  position: absolute;
+  /* margin-left: 160px;
+  margin-top: 240px; */
+  right: -1000px;
+  bottom: 120px;
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: 1px 1px 5px darkslategray;
+}
+
+.btntinder {
+  margin-top: 600px;
+}
+
+.settingakun {
+  font-family: "Fira Sans", sans-serif;
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+  background: #ededed;
+  height: 40px;
+  top: 3px;
+  justify-content: center;
+  padding-top: 5px;
 }

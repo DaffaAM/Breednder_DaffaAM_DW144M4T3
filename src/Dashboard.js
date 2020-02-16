@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import "./Dashboard.css"
 import profile from "./img/profile.jpg";
-import { Image,Row,Button } from 'react-bootstrap';
-
+import { Image,Row } from 'react-bootstrap';
+import './Dashboard.css';
+import tinder from "./img/tinder.PNG";
+import { Link } from "react-router-dom";
 
 console.log(profile);
 
@@ -12,19 +13,18 @@ class Dashboard extends Component {
         return(
             <div>
             <div className="divkiri">
-               <nav className="navkiri">
-                   <img className="profilebulat" src={profile} style={{}} alt="profile" />;
+               <nav className="navkiri" href="/Profile">
+               <Link to="/profile"> <img className="profilebulat" src={profile} style={{}} alt="profile" /></Link>
                    <p className="profile">Kochenk</p>
-                   </nav>  
-                   <Button className="invisiblebtn" variant="link" href="/Profile">A</Button>
-                   
+                   </nav>
+                   <p className="wowini">Match</p>
                    <div class="container">
                     <div class="row">
                         <Row className="rowkiri"/>
                     <div class="col-md-4">
                     <Image className="matchphoto" src={profile} style={{}} alt="profile" rounded/>;
                         </div>
-                    
+
                     <div class="col-md-4">
                     <Image className="matchphoto" src={profile} style={{}} alt="profile" rounded/>;
                     </div>
@@ -33,14 +33,14 @@ class Dashboard extends Component {
                     </div>
                 </div>
                 </div>
-                
+
                 <div class="container">
                     <div class="row">
                         <Row className="rowkiri"/>
                     <div class="col-md-4">
                     <Image className="matchphoto" src={profile} style={{}} alt="profile" rounded/>;
                         </div>
-                    
+
                     <div class="col-md-4">
                     <Image className="matchphoto" src={profile} style={{}} alt="profile" rounded/>;
                     </div>
@@ -49,14 +49,14 @@ class Dashboard extends Component {
                     </div>
                 </div>
                 </div>
-                
+
                 <div class="container">
                     <div class="row">
                         <Row className="rowkiri"/>
                     <div class="col-md-4">
                     <Image className="matchphoto" src={profile} style={{}} alt="profile" rounded/>;
                         </div>
-                    
+
                     <div class="col-md-4">
                     <Image className="matchphoto" src={profile} style={{}} alt="profile" rounded/>;
                     </div>
@@ -65,14 +65,14 @@ class Dashboard extends Component {
                     </div>
                 </div>
                 </div>
-                
+
                 <div class="container">
                     <div class="row">
                         <Row className="rowkiri"/>
                     <div class="col-md-4">
                     <Image className="matchphoto" src={profile} style={{}} alt="profile" rounded/>;
                         </div>
-                    
+
                     <div class="col-md-4">
                     <Image className="matchphoto" src={profile} style={{}} alt="profile" rounded/>;
                     </div>
@@ -82,7 +82,10 @@ class Dashboard extends Component {
                 </div>
                 </div>
                  </div>
-            <div className="divkanan"></div>
+            <div className="divkanan">
+            <Image src={tinder} className="gambartinder" />
+
+            </div>
             </div>
         );
     }

@@ -5,18 +5,18 @@ import "./landing.css";
 class Register extends Component {
     constructor(props) {
       super(props);
-      this.state = { 
+      this.state = {
         show: false
       };
     }
-  
+
     handleModal = visible => {
       this.setState({ show: !visible });
     };
-  
+
     render() {
       const { show } = this.state;
-  
+
       return (
         <>
                    <Button
@@ -46,7 +46,7 @@ class Register extends Component {
             </Form.Group>
             <Form.Group>
             <Form.Control className="formregist" type="text" placeholder="Name Pet" ></Form.Control>
-            </Form.Group> 
+            </Form.Group>
             <Form.Group>
             <Form.Control className="formregist" type="text" placeholder="Gender Pet" ></Form.Control>
             </Form.Group>

@@ -5,24 +5,23 @@ import "./landing.css";
 class Login extends Component {
     constructor(props) {
       super(props);
-      this.state = { 
+      this.state = {
         show: false
       };
     }
-  
+
     handleModal = visible => {
       this.setState({ show: !visible });
     };
-  
+
     render() {
       const { show } = this.state;
-  
+
       return (
         <>
-          <Button
-            className="button" size="lg" variant="primary" onClick={() => this.handleModal(show)}>Login</Button>
+          <Button className="button" size="lg" variant="primary" onClick={() => this.handleModal(show)}>Login</Button>
    <Modal className="modalsize" show={show} onHide={() => this.handleModal(show)}>
-            <div>
+            <div id="coba1">
               <Modal.Title className="title-login"> Login</Modal.Title>
             </div>
             <Form.Group>
@@ -47,6 +46,6 @@ class Login extends Component {
       );
     }
   }
-  
+
 
 export default Login;
