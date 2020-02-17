@@ -7,7 +7,7 @@ import icon1 from "./img/icon1.png";
 import icon2 from "./img/icon2.png";
 import icon3 from "./img/icon3.png";
 import icon4 from "./img/icon4.png";
-
+import { Link } from "react-router-dom";
 console.log(profile);
 console.log(icon1);
 console.log(icon2);
@@ -20,6 +20,13 @@ class Profile extends Component {
       <div>
         <div className="divkiri">
           <nav className="navkiri">
+            <Link to="/Dashboard">
+              <Image
+                src={require("./img/arrowleft.png")}
+                alt="kiri"
+                id="ukuranpanah"
+              />
+            </Link>
             <img
               className="profilebulat"
               src={profile}

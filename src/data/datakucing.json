@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "kucing1",
+    "Image": "http://localhost:3000/img/cat1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "kucing2",
+    "Image": "http://localhost:3000/img/cat2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "kucing3",
+    "Image": "http://localhost:3000/img/cat3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "kucing4",
+    "Image": "http://localhost:3000/img/cat4.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "kucing5",
+    "Image": "http://localhost:3000/img/cat5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "kucing6",
+    "Image": "http://localhost:3000/img/cat6.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "kucing7",
+    "Image": "http://localhost:3000/img/cat7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "kucing8",
+    "Image": "http://localhost:3000/img/cat8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "kucing1",
+    "Image": "http://localhost:3000/img/cat9.jpg"
+  }
+]
