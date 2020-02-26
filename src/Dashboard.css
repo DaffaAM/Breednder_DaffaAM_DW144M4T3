@@ -27,10 +27,28 @@
 }
 
 .arraymap {
+  position: relative;
   overflow: hidden;
   height: 180px;
   width: 115px;
   margin-top: 10px;
+}
+
+.matchgaris {
+  width: 20%;
+  background-color: #2c5364;
+  height: 3px;
+  margin-right: 300px;
+  margin-top: -5px;
+}
+
+.arraymap p {
+  margin-top: 150px;
+  position: absolute;
+  font-weight: bold;
+  color: azure;
+  margin-left: 20px;
+  box-shadow: black;
 }
 
 img.profilebulat {
@@ -73,6 +91,7 @@ p.profile {
 
 p.wowini {
   font-size: 27px;
+  margin-left: 10px;
 }
 
 img.matchphoto.rounded {
