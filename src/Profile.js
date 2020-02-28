@@ -87,9 +87,11 @@ class Profile extends Component {
             </Form.Control>
           </Form.Group>
 
-          <Button className="btnlgt" variant="danger" type="submit" href="/">
-            Logout
-          </Button>
+          <Link to="/">
+            <Button className="btnlgt" variant="danger" type="submit">
+              Logout
+            </Button>
+          </Link>
         </div>
         <div className="divkanan">
           <Premium />
@@ -132,9 +134,11 @@ class Profile extends Component {
           </div>
         </div>
         <div className="edit">
-          <Button className="btnedit" type="submit" href="/EditProfile">
-            Edit{" "}
-          </Button>
+          <Link to="/EditProfile">
+            <Button className="btnedit" type="submit">
+              Edit{" "}
+            </Button>
+          </Link>
         </div>
       </div>
     );

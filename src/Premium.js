@@ -22,7 +22,7 @@ function Premium() {
     setShowAlCon(false);
   };
 
-  const handleShowAlCon = () => setShowAlCon(true);
+  // const handleShowAlCon = () => setShowAlCon(true);
 
   return (
     <>

@@ -81,9 +81,11 @@ class Profile2 extends Component {
             </Form.Control>
           </Form.Group>
 
-          <Button className="btnlgt" variant="danger" type="submit" href="/">
-            Logout
-          </Button>
+          <Link to="/">
+            <Button className="btnlgt" variant="danger" type="submit">
+              Logout
+            </Button>
+          </Link>
         </div>
         <div className="divkanan">
           <Premium />

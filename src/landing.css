@@ -23,8 +23,6 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-#bg121 {
-}
 .button2 {
   position: absolute;
   justify-content: center;
@@ -51,11 +49,12 @@
   width: 200px;
   height: 64px;
   left: 600px;
-  top: 250px;
+  top: 330px;
   float: right;
   white-space: nowrap;
 
-  font-family: Opticon;
+  opacity: 1.5;
+  font-family: "Odibee Sans", cursive;
   font-style: normal;
   font-weight: normal;
   font-size: 100px;
@@ -75,24 +74,6 @@
   font-size: 72px;
   line-height: px;
   color: aliceblue;
-}
-
-.h2class {
-  display: inline;
-  position: absolute;
-  width: 200px;
-  height: 64px;
-  left: 600px;
-  top: 330px;
-  float: right;
-  white-space: nowrap;
-
-  opacity: 1.5;
-  font-family: "Odibee Sans", cursive;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 100px;
-  color: azure;
 }
 
 .h3class {
@@ -275,7 +256,7 @@ div.title-login.modal-title.h4 {
   font-weight: bold;
 }
 
-.premiumnorek. {
+.premiumnorek {
   margin-left: 55px;
   width: 400px;
   border-radius: 6px;
